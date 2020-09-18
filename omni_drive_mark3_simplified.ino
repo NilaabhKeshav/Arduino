@@ -133,7 +133,7 @@ else if(buttonValue==HIGH)
     
   }
  }
- /*else if(xAxis>550 && yAxis>550 && buttonValue==LOW)//top right
+ else if(xAxis>550 && yAxis>550 && buttonValue==LOW)//top right
   { 
     digitalWrite(in1, LOW);
     digitalWrite(in2, HIGH);
@@ -185,5 +185,5 @@ else if(buttonValue==HIGH)
     motorSpeedA=1.732*motorSpeedB;   
     //Bottom left 45 angle
   }
-*/
+
 }
